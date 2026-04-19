@@ -1,0 +1,40 @@
+table {
+  width: 100%;
+  margin: 10px 0;
+  border-collapse: collapse;
+}
+
+th, td {
+  border-bottom: 1px solid #334155;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  color: #94a3b8;
+  font-weight: 600;
+}
+
+tr:hover {
+  background: #334155;
+}
+
+/* scoped input only for table */
+.table-container input {
+  width: 70px;
+  padding: 6px;
+  background: #020617;
+  border: 1px solid #334155;
+  color: white;
+  border-radius: 4px;
+}
+
+.pass {
+  color: #22c55e;
+  font-weight: bold;
+}
+
+.fail {
+  color: #ef4444;
+  font-weight: bold;
+}
